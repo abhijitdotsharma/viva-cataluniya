@@ -1,0 +1,19 @@
+body{
+    background-color: #FF4848;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid black;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+#btn-translate{
+    margin-bottom: 1rem;
+}
+
+#output{
+    background-color: white;
+}
