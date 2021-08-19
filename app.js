@@ -2,7 +2,7 @@ let btnTranslate = document.querySelector("#btn-translate")
 let txtInput = document.querySelector('#txt-input')
 let outputDiv = document.querySelector('#output')
 
-let url = "https://api.funtranslations.com/translate/catalan.json"
+let url = "https://api.funtranslations.com/translate/groot.json"
 
 //construct the api call link
 function constructURL(text){
@@ -15,7 +15,7 @@ function errorHandler(error){
 }
 
 function clickHandler(){
-    //saving input for constructURL function call
+    
     let inputText = txtInput.value
     
     //Calling the Server
